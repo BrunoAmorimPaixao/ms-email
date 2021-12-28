@@ -33,6 +33,7 @@ public class EmailService {
         } catch (MailException e){
             email.setStatusEmail(StatusEmailEnum.ERROR);
         } finally {
+            //futuramente fazer um metodo caso o email tenha dado erro tentar de novo
             return emailRepository.save(email);
         }
     }
