@@ -59,7 +59,10 @@ out/
 /nbdist/
 
 ### VS Code ###
-.vscode/
+.vscode
+.classpath
+.project
+.settings/
 
 ### Maven ###
 target/
@@ -72,3 +75,7 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+
+# MacOS
+
+.DS_Store
